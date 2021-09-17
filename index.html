@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body class="lightmode" id="modo">
+    <nav class="mode">
+        <span>Mode: </span>
+        <button id="light" onclick="light()" type="button">Light</button>
+        <button id="dark" onclick="dark()" type="button">Dark</button>
+    </nav>
+    <hr>
+    <div class="container">
+        <h1>FizzBuzz</h1>
+        <form action="" class="form">
+            <label for="">Introduce un numero</label>
+            <input type="number" id="number">
+            <button onclick="fizzBuzz()" type="button">Go!</button>
+        </form>
+        <div id="va"></div>
+        <ul id="fizz">
+        </ul>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
