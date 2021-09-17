@@ -7,7 +7,7 @@
     display: flex;
     justify-content: right;
     align-items: center;
-    margin: 20px;
+    margin: 20px 20px 20px 0;
 }
 
 #light{
@@ -15,7 +15,6 @@
     background-color: white;
 }
 #dark{
-    margin-right: 10px;
     background-color: black;
     color: white;
 }
