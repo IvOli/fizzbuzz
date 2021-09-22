@@ -14,16 +14,16 @@ function fizzBuzz(){
         let newElement = document.createElement("li");
         console.log(i)
         if(i%5==0 && i%3==0){
-            newElement.innerHTML = `<li> ${i} - FizzBuzz</li>`;
+            newElement.innerHTML = `${i} - FizzBuzz`;
         }
         else if(i%5==0){
-            newElement.innerHTML = `<li> ${i} - Buzz</li>`;
+            newElement.innerHTML = `${i} - Buzz`;
         }
         else if(i%3==0){
-            newElement.innerHTML = `<li> ${i} - Fizz</li>`;
+            newElement.innerHTML = `${i} - Fizz`;
         }
         else{
-            newElement.innerHTML = `<li> ${i} - </li>`;
+            newElement.innerHTML = `${i} - `;
         }
         document.getElementById("fizz").appendChild(newElement);
         console.log(number)
@@ -44,3 +44,4 @@ function light(){
     document.getElementById("modo").style.color = 'black';
     document.getElementById("modo").style.background = 'white';
 }
+
